@@ -25,7 +25,7 @@ package org.tn5250j.tools.logging;
 import java.util.*;
 
 import org.tn5250j.tools.logging.TN5250jLogger;
-import org.tn5250j.interfaces.ConfigureFactory;
+import org.tn5250j.config.ConfigureFactory;
 
 /**
  * An interface defining objects that can create Configure

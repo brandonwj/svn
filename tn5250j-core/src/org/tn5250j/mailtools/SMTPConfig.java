@@ -31,7 +31,7 @@ import java.util.Properties;
 import java.awt.event.*;
 import java.util.Enumeration;
 
-import org.tn5250j.interfaces.ConfigureFactory;
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.tools.LangTool;
 
 public class SMTPConfig extends JDialog {

@@ -31,7 +31,7 @@ import java.io.*;
 import java.awt.event.*;
 
 import org.tn5250j.*;
-import org.tn5250j.interfaces.ConfigureFactory;
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.scripting.ExecuteScriptAction;
 import org.tn5250j.scripting.InterpreterDriverManager;
 import org.tn5250j.tools.LangTool;

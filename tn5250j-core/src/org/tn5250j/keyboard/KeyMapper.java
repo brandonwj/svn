@@ -30,7 +30,7 @@ import java.util.*;
 import java.lang.reflect.*;
 import javax.swing.KeyStroke;
 
-import org.tn5250j.interfaces.ConfigureFactory;
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.event.KeyChangeListener;
 import org.tn5250j.tools.LangTool;
 import org.tn5250j.tools.system.OperatingSystem;

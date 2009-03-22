@@ -28,9 +28,9 @@ import java.awt.Color;
 import java.awt.Rectangle;
 
 import org.tn5250j.tools.LangTool;
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.event.SessionConfigListener;
 import org.tn5250j.event.SessionConfigEvent;
-import org.tn5250j.interfaces.ConfigureFactory;
 import org.tn5250j.tools.GUIGraphicsUtils;
 
 /**

@@ -21,9 +21,8 @@
  * Boston, MA 02111-1307 USA
  *
  */
-package org.tn5250j.interfaces;
+package org.tn5250j.config;
 
-import org.tn5250j.GlobalConfigure;
 import java.util.Properties;
 
 /**

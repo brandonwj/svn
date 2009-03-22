@@ -4,6 +4,7 @@ import java.awt.*;
 import javax.swing.*;
 
 import org.tn5250j.*;
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.interfaces.*;
 
 public class TestFrame

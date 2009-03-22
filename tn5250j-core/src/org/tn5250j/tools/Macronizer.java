@@ -34,7 +34,7 @@ import javax.swing.*;
 
 import org.tn5250j.SessionGUI;
 import org.tn5250j.scripting.InterpreterDriverManager;
-import org.tn5250j.interfaces.ConfigureFactory;
+import org.tn5250j.config.ConfigureFactory;
 
 public class Macronizer {
 

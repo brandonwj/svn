@@ -29,7 +29,7 @@ import java.util.Collections;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
-import org.tn5250j.interfaces.ConfigureFactory;
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.interfaces.OptionAccessFactory;
 import org.tn5250j.tools.LangTool;
 

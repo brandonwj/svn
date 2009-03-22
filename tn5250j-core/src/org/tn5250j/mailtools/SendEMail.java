@@ -32,7 +32,7 @@ import javax.activation.*;
 import javax.swing.*;
 
 import org.tn5250j.tools.LangTool;
-import org.tn5250j.interfaces.ConfigureFactory;
+import org.tn5250j.config.ConfigureFactory;
 
 public class SendEMail {
 

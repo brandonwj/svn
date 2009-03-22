@@ -29,8 +29,8 @@ import javax.swing.text.BadLocationException;
 import javax.swing.text.PlainDocument;
 
 import org.tn5250j.Configure.SomethingEnteredDocument;
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.encoding.CharMappings;
-import org.tn5250j.interfaces.ConfigureFactory;
 import org.tn5250j.tools.AlignLayout;
 import org.tn5250j.tools.LangTool;
 import org.tn5250j.tools.logging.TN5250jLogFactory;

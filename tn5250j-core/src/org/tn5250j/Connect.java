@@ -46,11 +46,6 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Enumeration;
-import java.util.Properties;
-import java.util.Vector;
 import java.util.*;
 
 import javax.swing.AbstractAction;
@@ -84,9 +79,9 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.JPasswordField;
 import javax.swing.text.*;
 
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.gui.JSortTable;
 import org.tn5250j.gui.SortTableModel;
-import org.tn5250j.interfaces.ConfigureFactory;
 import org.tn5250j.tools.LangTool;
 import org.tn5250j.gui.TN5250jMultiSelectList;
 import org.tn5250j.interfaces.OptionAccessFactory;

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: core2
-Bundle-SymbolicName: tn5250j_osgi_core
+Bundle-Name: org.tn5250j.core
+Bundle-SymbolicName: org.tn5250j.core
 Bundle-Version: 1.0.0
 Bundle-Activator: org.tn5250j.Activator
 Import-Package: org.osgi.framework

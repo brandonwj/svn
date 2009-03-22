@@ -23,14 +23,13 @@
  * Boston, MA 02111-1307 USA
  *
  */
-package org.tn5250j;
+package org.tn5250j.config;
 
 import java.util.Properties;
 import java.util.Hashtable;
 import java.io.*;
 import javax.swing.*;
 
-import org.tn5250j.interfaces.ConfigureFactory;
 
 /**
  * Utility class for referencing global settings and functions of which at most

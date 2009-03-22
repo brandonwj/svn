@@ -35,13 +35,13 @@ import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
 
 import org.tn5250j.tools.logging.*;
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.event.SessionJumpListener;
 import org.tn5250j.event.SessionJumpEvent;
 import org.tn5250j.event.SessionListener;
 import org.tn5250j.event.SessionChangeEvent;
 import org.tn5250j.event.TabClosedListener;
 import org.tn5250j.interfaces.GUIViewInterface;
-import org.tn5250j.interfaces.ConfigureFactory;
 import org.tn5250j.gui.TN5250jTabbedPane;
 
 public class Gui5250Frame extends GUIViewInterface implements

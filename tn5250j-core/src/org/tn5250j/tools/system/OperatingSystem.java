@@ -27,7 +27,7 @@ import java.net.MalformedURLException;
 import java.util.Properties;
 
 import org.tn5250j.ExternalProgramConfig;
-import org.tn5250j.interfaces.ConfigureFactory;
+import org.tn5250j.config.ConfigureFactory;
 import org.tn5250j.tools.logging.TN5250jLogFactory;
 import org.tn5250j.tools.logging.TN5250jLogger;
 
