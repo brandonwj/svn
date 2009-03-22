@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: tn5250j_osgi_framework
+Bundle-SymbolicName: org.tn5250j.framework
+Bundle-Version: 1.0.0
+Require-Bundle: org.tn5250j.logging;bundle-version="1.0.0"
+Export-Package: org.tn5250j.framework.transport,
+ org.tn5250j.framework.transport.SSL

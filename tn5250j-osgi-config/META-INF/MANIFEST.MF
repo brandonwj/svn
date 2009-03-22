@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: tn5250j_osgi_config
+Bundle-SymbolicName: org.tn5250j.configuration
+Bundle-Version: 1.0.0
+Export-Package: org.tn5250j,
+ org.tn5250j.interfaces

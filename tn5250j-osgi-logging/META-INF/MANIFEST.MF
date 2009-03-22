@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: tn5250j_osgi_logging
+Bundle-SymbolicName: org.tn5250j.logging
+Bundle-Version: 1.0.0
+Export-Package: org.tn5250j.tools.logging
+Require-Bundle: org.tn5250j.configuration;bundle-version="1.0.0"
