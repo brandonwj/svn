@@ -1,4 +1,4 @@
-package my;
+package act;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
@@ -10,7 +10,7 @@ public class Activator implements BundleActivator {
 	 * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext)
 	 */
 	public void start(BundleContext context) throws Exception {
-		System.out.println("xxx Hello World!!");
+		System.out.println("FRAMEWORK - Hello World!!");
 	}
 	
 	/*
@@ -18,7 +18,7 @@ public class Activator implements BundleActivator {
 	 * @see org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
 	 */
 	public void stop(BundleContext context) throws Exception {
-		System.out.println("xxx Goodbye World!!");
+		System.out.println("Goodbye World!!");
 	}
 
 }
