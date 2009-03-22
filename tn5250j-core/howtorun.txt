@@ -1,0 +1,31 @@
+
+How to run the plugins with Eclipse
+--------------------------------------------------
+
+ Use the "Tn5250j OSGI.launch" to run ...
+
+
+How to run the plugins with Apache Felix
+--------------------------------------------------
+
+ 1. Create the bundles (with Eclipse)
+     a. Click File->Export
+     b. Select "Deployable plug-ins and fragements
+     c. Select all 4 bundles
+         org.tn5250j.configuration
+         org.tn5250j.core
+         org.tn5250j.framework
+         org.tn5250j.logging
+ 2. Download Apache Felix (http://felix.apache.org)
+ 3. Take the default "config.properties" and search
+    for the autostart settings and change it: 
+    
+    felix.auto.start.1= \
+ file:plugins/org.tn5250j.configuration_1.0.0.jar \
+ file:plugins/org.tn5250j.logging_1.0.0.jar \
+ file:plugins/org.tn5250j.framework_1.0.0.jar \
+ file:plugins/org.tn5250j.core_1.0.0.jar \
+ 
+ 4. Copy the exported JARs to a folder, called 'plugins'
+    (should be named like above) 
+ 5. Run "java -jar felix.jar"

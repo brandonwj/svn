@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: org.tn5250j.core
+Bundle-Name: org.tn5250j.logging
 Bundle-SymbolicName: org.tn5250j.logging
 Bundle-Version: 1.0.0
 Export-Package: org.tn5250j.tools.logging
